@@ -23,12 +23,12 @@ Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c
 Include the "main.h" header file on the functions using the _printf   
 
 **Example:**    
-#include "main.h" 
+#include "main.h"  
 _printf("The %s ran %d times! -%c" "boy", 10, 'C');
 
 return 0;
 
-**Output: **    
+**Output:**   
 The boy ran 10 times! -C
 
 **Project by:**   

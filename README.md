@@ -7,7 +7,7 @@ The _printf function is a custom implementation of the C programming function pr
 The described _printf function produces an output format based on the identifiers that are listed below. When the function is successful, it returns the length of the string passed, and returns (-1) when the function fails.
 
 **Format identifiers:**
-%c: Prints a character /n
+%c: Prints a character /
 %s: Prints a string
 %d: Prints integers
 %i: Prints integers

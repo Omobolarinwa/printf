@@ -2,16 +2,37 @@
 
 .SH NAME
 _printf
+- prints and formats output of a given input like the printf() function
 
 .SH SYNOPSIS
 
+#include "main.h"
+int _printf(const char * format, ...)
+
 .SH DESCRIPTION
+
+_printf is a variadic function that produces a string according to a format and prints it to the standard output
 
 .SH RETURN VALUE
 
+The function returns the number of characters printed if it succeeds.
+If it fails, it returns a negative value
+
 .SH EXAMPLE
+The following will output a string to the standard output.
+
+_printf("hello");
+
+The following will output a value to the standard output.
+
+_printf("%d", 230001);
+
+The following will output the string in reverse to the output.
+
+_printf("%r", Hello World);
 
 .SH BUGS
+_printf does not take care of length and precision modifiers yet.
 
 .SH SEE ALSO
 printf(3)
